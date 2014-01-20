@@ -1,0 +1,16 @@
+                 users GET    /users(.:format)            users#index
+                       POST   /users(.:format)            users#create
+              new_user GET    /users/new(.:format)        users#new
+             edit_user GET    /users/:id/edit(.:format)   users#edit
+                  user GET    /users/:id(.:format)        users#show
+                       PUT    /users/:id(.:format)        users#update
+                       DELETE /users/:id(.:format)        users#destroy
+user_tweet_tweet_index POST   /tweet/user_tweet(.:format) tweet#user_tweet
+           tweet_index GET    /tweet(.:format)            tweet#index
+                       POST   /tweet(.:format)            tweet#create
+             new_tweet GET    /tweet/new(.:format)        tweet#new
+            edit_tweet GET    /tweet/:id/edit(.:format)   tweet#edit
+                 tweet GET    /tweet/:id(.:format)        tweet#show
+                       PUT    /tweet/:id(.:format)        tweet#update
+                       DELETE /tweet/:id(.:format)        tweet#destroy
+                  root        /                           tweet#user_tweet

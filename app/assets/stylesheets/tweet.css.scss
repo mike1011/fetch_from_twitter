@@ -1,0 +1,14 @@
+// Place all the styles related to the tweet controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.fieldset_form{
+height: auto;
+width: auto;
+background: lightGray;
+padding: 126px 528px;
+}
+
+#error_explanation{
+  color:red;
+   font-style: italic;  
+}

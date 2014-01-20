@@ -1,0 +1,25 @@
+<%= stylesheet_link_tag "tweet" %>
+
+<h1>Listing tweets</h1>
+<%= link_to "Go Back", :controller => "tweet", :action => "index" %>
+<fieldset class="fieldset_form">
+  <table>
+    <th style="background-color:yellow">Name</th>
+    <th style="background-color:yellow">Url</th>
+    <% if @tweet.errors.nil?%>
+    <% @tweet.tweets.each do |t| %>
+    <tr>
+      <td><%= t.name%></td>
+      <%if !t.url.nil? %>
+      <td><a href='<%= t.url%>' style="color:blue;font-style:italic">click to see the profile</a></td>
+      <%else%>
+      <td>no url exists</td>
+      <%end%>
+      <%end%>
+      <%else%>
+      <p>
+        <%= @tweet.errors.full_messages%>
+      </p>
+    </tr>
+  </table>
+</fieldset>
