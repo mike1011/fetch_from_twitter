@@ -4,7 +4,6 @@
 <%= link_to "Go Back", :controller => "tweet", :action => "index" %>
 <fieldset class="fieldset_form">
   <table>
-    <th style="background-color:yellow">Name</th>
     <th style="background-color:yellow">Url</th>
     <% if @tweet.errors.nil?%>
     <% @tweet.tweets.each do |t| %>
