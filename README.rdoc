@@ -8,9 +8,12 @@ You can view more on https://dev.twitter.com/docs/api/1.1
 PLEASE FOLLOW THE BELOW STEPS TO RUN CUCUMBER TEST
 
 1)Run bundle install or bundle exec bundle install
+
 2)Prepare the test database using rake db:migrate and rake db:test:prepare
+
 3)Run the feature file using bundle exec rake cucumber
-4)Once the test has been completed you will see the something on successful completion
+
+4)Once the test has been completed you will see a message,shown below on successful completion
 
 1 scenario (1 passed)
 3 steps (3 passed)
