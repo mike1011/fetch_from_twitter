@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Rssfetcher::Application.load_tasks
+Tweetfetcher::Application.load_tasks

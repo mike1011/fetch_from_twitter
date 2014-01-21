@@ -1,7 +1,7 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/config/environment.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/config/environment.rb": [
         null,
         1,
         null,
@@ -9,50 +9,38 @@
         null,
         1
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/config/application.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/config/application.rb": [
         1,
         null,
         1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null,
         null,
         1,
         null,
-        null,
         1,
         null,
         null,
+        null,
+        null,
         1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -67,14 +55,31 @@
         null,
         null,
         1,
+        null,
+        null,
         1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
         null,
         null,
         1,
         null,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/config/boot.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/config/boot.rb": [
         1,
         null,
         null,
@@ -82,7 +87,7 @@
         null,
         1
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/config/environments/test.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/config/environments/test.rb": [
         1,
         null,
         null,
@@ -121,7 +126,7 @@
         1,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/config/initializers/backtrace_silencers.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -130,7 +135,7 @@
         null,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/config/initializers/inflections.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -147,14 +152,14 @@
         null,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/config/initializers/mime_types.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/config/initializers/secret_token.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/config/initializers/secret_token.rb": [
         null,
         null,
         null,
@@ -163,7 +168,7 @@
         null,
         1
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/config/initializers/session_store.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/config/initializers/session_store.rb": [
         null,
         null,
         1,
@@ -173,7 +178,7 @@
         null,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/config/initializers/wrap_parameters.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -189,13 +194,26 @@
         1,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/app/controllers/application_controller.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/app/controllers/application_controller.rb": [
         1,
         1,
+        null,
+        null,
         1,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/app/helpers/application_helper.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/app/helpers/application_helper.rb": [
         1,
         null,
         1,
@@ -205,15 +223,15 @@
         null,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/app/helpers/tweet_helper.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/app/helpers/tweet_helper.rb": [
         1,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/app/helpers/users_helper.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/app/controllers/tweet_controller.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/app/controllers/tweet_controller.rb": [
         1,
         null,
         null,
@@ -224,40 +242,36 @@
         null,
         null,
         1,
-        2,
-        2,
-        2,
-        null,
-        2,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
         null,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/app/models/tweet.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/app/models/tweet.rb": [
         1,
         null,
         1,
         1,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         1,
         null,
-        2,
-        2,
-        2,
+        0,
         null,
-        2,
-        null,
+        0,
+        0,
         null,
         null,
-        null,
-        1,
-        2,
-        null,
-        null,
-        null,
+        0,
         null,
         null,
         null,
@@ -266,11 +280,8 @@
         null,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/config/routes.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/config/routes.rb": [
         1,
-        1,
-        null,
-        null,
         null,
         null,
         null,
@@ -335,7 +346,7 @@
         null,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/features/support/paths.rb": [
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/features/support/paths.rb": [
         null,
         null,
         1,
@@ -354,37 +365,45 @@
         null,
         null
       ],
-      "C:/Users/nayana bhagat/Documents/GitHub/twitter_challenge/features/step_definitions/tweet_steps.rb": [
-        null,
+      "C:/Users/nayana bhagat/Documents/GitHub/fetch_from_twitter/features/step_definitions/tweet_steps.rb": [
         1,
         null,
         1,
-        2,
         null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        2,
-        null,
-        null,
-        null,
-        1,
-        6,
-        null,
-        null,
-        1,
+        0,
+        0,
         0,
         null,
         null,
+        null,
         1,
-        0,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        11,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        11,
+        21,
+        null,
+        1,
+        null,
         null
       ]
     },
-    "timestamp": 1389950468
+    "timestamp": 1390316136
   }
 }

@@ -27,9 +27,10 @@ gem 'jquery-rails'
 gem 'simplecov', :require => false, :group => :test
 
 group :test do
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails'
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
+  
 end
 
 # To use ActiveModel has_secure_password

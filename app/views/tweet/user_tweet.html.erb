@@ -1,19 +1,18 @@
 <%= stylesheet_link_tag "tweet" %>
 
-<h1>Listing tweets</h1>
+<h1>Showing 10 latest tweets</h1>
 <%= link_to "Go Back", :controller => "tweet", :action => "index" %>
 <fieldset class="fieldset_form">
   <table>
     <th style="background-color:yellow">Url</th>
-    <% if @tweet.errors.nil?%>
-    <% @tweet.tweets.each do |t| %>
     <tr>
-      <td><a href='<%= t%>' style="color:blue;font-style:italic"></a></td>
+      <% if @show_error_message.nil? %>
+        <% @tweets.each do |t| %>
+            <td><%= t %></td>
+        <%end%>
+        <%else%>
+            <%= @show_error_message%>
       <%end%>
-      <%else%>
-      <p>
-        <%= @tweet.errors.full_messages%>
-      </p>
     </tr>
   </table>
 </fieldset>

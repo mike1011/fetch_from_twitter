@@ -1,6 +1,7 @@
-Rssfetcher::Application.configure do
+Tweetfetcher::Application.configure do
+   require 'twitter'
+  
   # Settings specified here will take precedence over those in config/application.rb
-require 'rack/ssl'
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
@@ -9,8 +10,14 @@ require 'rack/ssl'
   # Log error messages when you accidentally call methods on nil.
   config.whiny_nils = true
 
-
-config.middleware.use Rack::SSL
+TWITTER_CREDENTIALS = YAML::load(File.open("#{Rails.root}/config/tweet.yml"))
+TWITTER_CLIENT=Twitter::REST::Client.new do |config|
+      config.consumer_key        = TWITTER_CREDENTIALS['consumer_key']
+      config.consumer_secret     = TWITTER_CREDENTIALS['consumer_secret']
+      config.access_token        = TWITTER_CREDENTIALS['token']
+      config.access_token_secret = TWITTER_CREDENTIALS['token_secret']
+    end
+   
 
 
   # Show full error reports and disable caching

@@ -1,6 +1,11 @@
 ENV["RAILS_ENV"] = "test"
 require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
+require 'webmock/test_unit'
+require 'webmock/cucumber'
+require 'webmock/minitest'
+
+WebMock.disable_net_connect!(allow_localhost: true)
 
 class ActiveSupport::TestCase
   # Setup all fixtures in test/fixtures/*.(yml|csv) for all tests in alphabetical order.

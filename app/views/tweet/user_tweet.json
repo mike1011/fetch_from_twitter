@@ -1,14 +1,4 @@
-Feature: Verify tweet page 
-   Search for a hashtag using twitter api
-  
-
-
-  Scenario: verify the api using static json response 
-    When I send a POST request to "/tweet/user_tweet" with: "freebandnames"
-    Then the JSON response should have "urls" elements
-    Then I should receive the following JSON object response:
-      """
-         [
+[
         {
           "text": "freebandnames",
           "url":"http://bullcityrecords_one.com/wnng/",
@@ -56,7 +46,3 @@ Feature: Verify tweet page
         
         
       ]
-      """
-   
-   
- 

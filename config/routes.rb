@@ -1,8 +1,5 @@
-Rssfetcher::Application.routes.draw do
-  resources :users
-
-
-  # The priority is based upon order of creation:
+Tweetfetcher::Application.routes.draw do
+    # The priority is based upon order of creation:
   # first created -> highest priority.
 
 ##didnt used default crud mehtods,hence defined custom methods

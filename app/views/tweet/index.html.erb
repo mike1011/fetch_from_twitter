@@ -2,25 +2,14 @@
 
 <fieldset class="fieldset_form">
 
-  <%= form_for(@tweet,user_tweet_tweet_index_path,:id=>"tweet_form") do |f|%>
-  <% if @tweet.errors.any? %>
-  <div id="error_explanation">
-    <ul>
-      <% @tweet.errors.full_messages.each do |msg| %>
-      <li>
-        <%= msg %>
-      </li>
-      <% end %>
-    </ul>
+  <%= form_tag('tweet/user_tweet', {:id => 'my_form'}) do %>
+  <div>
+    <%= text_field_tag 'Enter what you want to search' %>
+  </div>
+  <div>
+    <%= submit_tag 'Search' %>
   </div>
   <% end %>
 
-  <div style="padding:10px">
-    Enter the text to Search: <%= f.text_field :value_to_search%>
-  </div>
-  <div style="padding:10px">
-    <%= submit_tag 'Search in Twitter',:id=>"submit" %>
-  </div>
-  <% end -%>
 </fieldset>
 

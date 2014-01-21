@@ -13,16 +13,4 @@
 
 ActiveRecord::Schema.define(:version => 20131203150220) do
 
-  create_table "tweets", :force => true do |t|
-    t.string   "content"
-    t.datetime "created"
-  end
-
-  create_table "users", :force => true do |t|
-    t.string   "name"
-    t.string   "contact"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
 end
